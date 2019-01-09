@@ -66,4 +66,29 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
 # blog-man
+
+A Blog app for playing around with React 16.7, async await, ES6, babel and webpack.
+
+Contains:
+
+- a working example of a Blog App
+- ES6 - 7 Support with Babel
+- a webpack production config so you can build the app and make it ready for production
+- implementation of async and await
+
+## Run the app
+
+0. `npm install`
+1. `npm start`
+
+## Build the app
+
+`npm run build`
+
+This will build the app into the "dist" directory in the root of the project. It contains the index.html along with the minified assets, ready for production.
+
+## Demo
+
+![Alt text](/demo-blog-man.png?raw=true "Demo Image")
